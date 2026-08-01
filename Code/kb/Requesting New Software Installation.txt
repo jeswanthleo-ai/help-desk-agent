@@ -1,0 +1,105 @@
+Overview
+This document explains the process for requesting new software to be
+installed on your company-issued laptop or desktop, including approval
+requirements, timelines, and policy restrictions. This process applies to
+any software not already included in the standard company laptop image.
+
+What's Already Pre-Installed
+Every company device ships with a standard software image that includes:
+- Web browser (company-approved version, auto-updated)
+- Office productivity suite
+- Company security agent (antivirus and endpoint monitoring)
+- VPN client (inactive until VPN access is separately granted)
+- Standard communication tools (email client, Slack)
+
+If the software you need is not in this standard list, it must be
+requested individually through the process below.
+
+How to Request Software Installation
+1. Submit a request via the IT Service Portal under
+   "Software Installation".
+2. Provide the following details in the request form:
+   - Exact software name and, if known, the specific version required
+   - Business justification explaining why this software is needed for
+     your role
+   - Whether this is a one-time need or ongoing tool for your daily work
+3. Requests are reviewed by the IT Security team, who evaluate the
+   software for license compliance, known security vulnerabilities, and
+   compatibility with the standard company device image.
+4. Review typically takes 2 business days. Software involving elevated
+   system permissions or third-party integrations with company data may
+   take longer due to additional security review.
+5. Once approved, the software is pushed remotely to your device through
+   the company's device management system; no manual download or
+   installation by the employee is required in most cases.
+
+Approval Requirements by Software Type
+- Free, open-source developer tools (e.g., code editors, common libraries):
+  Usually approved quickly with minimal review, often within 1 business
+  day.
+- Licensed commercial software (e.g., design tools, specialized analytics
+  software): Requires budget approval from your manager in addition to
+  the standard IT Security review, since these often carry a per-seat
+  licensing cost.
+- Software requesting access to company data or systems (e.g., third-party
+  integrations, browser extensions with broad permissions): Requires a
+  full security review, which may take up to 5 business days.
+
+Unapproved and Prohibited Software
+Under company IT policy, employees cannot install software directly on
+their own without going through this request process, even for
+seemingly harmless applications. This includes:
+- Personal productivity apps not vetted for data security
+- Browser extensions requesting access to browsing data or credentials
+- Any peer-to-peer file sharing or torrenting software, which is strictly
+  prohibited on all company devices
+- Unlicensed or pirated software of any kind
+
+Attempting to bypass these restrictions by using local administrator
+privileges (where technically possible) is a violation of the IT
+Acceptable Use Policy and may result in disciplinary action.
+
+Requesting Elevated/Admin Access for Development Work
+Some engineering roles require broader local permissions to install
+development dependencies frequently (e.g., package managers, local
+databases, containerization tools). Rather than requesting individual
+software installations repeatedly, employees in qualifying roles can
+request "Developer Elevated Access" through the IT Service Portal, which
+grants broader (but still monitored and logged) local installation
+permissions after manager and IT Security approval. This is a role-based
+request, reviewed on a case-by-case basis, and not automatically granted
+to all engineering hires.
+
+Uninstalling or Removing Software
+If software is no longer needed (e.g., a project-specific tool after the
+project concludes), you can request removal through the same
+"Software Installation" request type in the IT Service Portal, selecting
+"Uninstall" as the request type. This helps keep your device's software
+inventory clean and is periodically reviewed during company-wide software
+audits for licensing cost optimization.
+
+Common Software Installation Issues
+
+Issue: Requested software approved but not yet appearing on device
+Cause: Remote push installations are typically applied during a device's
+next scheduled check-in with the management system, which occurs every
+few hours, or upon next reboot.
+Fix: Restart your device and check again. If the software still has not
+appeared after 24 hours post-approval, contact IT Helpdesk to confirm
+the push was successfully triggered.
+
+Issue: Software installation request rejected
+Cause: Common reasons include license cost not approved by manager,
+security vulnerabilities identified in the specific version requested, or
+the software duplicating functionality already covered by an approved
+company-standard tool.
+Fix: Review the rejection reason provided in the IT Service Portal ticket
+notes. If you believe the rejection was made in error or circumstances
+have changed, you can resubmit with additional justification or an
+alternative, already-approved software version.
+
+Contact and Escalation
+For urgent software needs blocking active project work, note the urgency
+clearly in your request's business justification field. For general
+questions about the software approval process, contact
+ithelpdesk@adp.com or extension 7075949430.

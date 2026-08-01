@@ -1,0 +1,6 @@
+streamlit==1.59.1
+langgraph==1.2.8
+python-dotenv==1.2.2
+google-genai==2.11.0
+chromadb==1.5.9
+httpx==0.28.1

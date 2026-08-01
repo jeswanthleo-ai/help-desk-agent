@@ -1,0 +1,107 @@
+Overview
+Virtual Private Network (VPN) access allows employees to securely connect to
+internal company systems, file shares, and applications when working from a
+remote location, a client site, or a home office. VPN access is mandatory for
+any employee who needs to reach internal-only resources such as the internal
+wiki, internal build servers, shared network drives, or on-premise databases
+while outside the corporate office network.
+
+Who Needs VPN Access
+- Employees working remotely on a regular or occasional basis
+- Employees traveling for client meetings or conferences
+- Contractors and vendors who require temporary access to internal systems
+- Employees connecting from a home office during hybrid work arrangements
+
+VPN access is not required for accessing cloud-based tools such as email,
+calendar, or SaaS applications that are already internet-accessible; it is
+specifically needed for internal, on-premise resources.
+
+How to Request VPN Access
+1. Log in to the IT Service Portal at portal.company.com using your company
+   credentials.
+2. Navigate to "Access Requests" and select "VPN Access" from the list of
+   available request types.
+3. Fill out the request form, including:
+   - Your employee ID
+   - Your department
+   - Your reporting manager's name
+   - Business justification for remote access (e.g., "hybrid work
+     arrangement", "upcoming travel for client project")
+4. Submit the request. Your manager will automatically receive an approval
+   notification via email.
+5. Once your manager approves the request, it is routed to the IT Security
+   team for a final review, which typically takes an additional 4 to 8
+   business hours.
+6. Approval time overall: 1-2 business days under normal circumstances.
+
+What Happens After Approval
+Once approved, you will receive an email from itaccess@company.com containing:
+- A link to download the approved VPN client software (GlobalProtect or
+  Cisco AnyConnect, depending on your device type)
+- Your unique VPN username (usually the same as your email prefix)
+- A temporary activation PIN, valid for 48 hours, which you will use the
+  first time you connect
+- A link to the VPN Setup Guide with screenshots for Windows, Mac, and Linux
+
+Setting Up the VPN Client
+1. Download and install the VPN client using the link provided in your
+   approval email.
+2. Open the VPN client and enter the internal gateway address:
+   vpn.company.com
+3. When prompted, enter your company username and the temporary activation
+   PIN from your approval email.
+4. You will be prompted to set a permanent VPN password on first login.
+5. After setup, the VPN client will prompt for multi-factor authentication
+   (MFA) on every connection, using the Authenticator app already installed
+   during onboarding.
+
+Renewing or Extending VPN Access
+VPN access is granted for a 12-month period by default and must be renewed
+annually. You will receive an automatic reminder email 2 weeks before your
+access expires. To renew, simply log a new request in the IT Service Portal
+using the "VPN Renewal" request type, which usually processes faster than a
+new request since your manager and business justification are already on
+file.
+
+Troubleshooting Common VPN Issues
+
+Issue: "Unable to connect to VPN gateway"
+Cause: Usually a temporary network issue or an outdated VPN client version.
+Fix: Confirm your internet connection is stable, then check for a client
+update within the VPN application settings. If the issue persists after
+updating, restart your device and try again.
+
+Issue: "Authentication failed" during VPN login
+Cause: Incorrect password, or your MFA app is out of sync.
+Fix: Reset your VPN password using the "Forgot VPN Password" link in the
+VPN client login screen. If MFA codes are being rejected, check that your
+phone's date and time are set to automatic/network time, as MFA codes are
+time-sensitive.
+
+Issue: VPN connects but internal sites are still unreachable
+Cause: Split-tunneling configuration issue, or the internal DNS server is
+not being applied correctly.
+Fix: Disconnect and reconnect the VPN client. If the issue persists,
+contact IT Helpdesk to have your VPN profile reset.
+
+Revoking VPN Access
+VPN access is automatically revoked when:
+- An employee's role no longer requires remote access, as flagged during
+  quarterly access reviews
+- An employee leaves the company (handled automatically as part of the
+  offboarding process)
+- VPN access has not been used for 90 consecutive days (inactive access is
+  automatically suspended for security purposes, and can be reactivated
+  upon request)
+
+Contact and Escalation
+For urgent VPN access needs (e.g., same-day requirement for unplanned
+remote work), contact the IT Helpdesk directly:
+- Email: ithelpdesk@adp.com
+- Phone: 7075949430
+- Live chat: available on the IT Service Portal, Monday-Friday, 9 AM - 6 PM
+
+For VPN access issues after business hours, use the On-Call IT Support line
+posted on the internal emergency contacts page. Urgent requests submitted
+after hours are addressed within 2 hours; non-urgent requests are queued
+for the next business day.

@@ -1,0 +1,100 @@
+Overview
+This checklist outlines everything a new employee should complete during
+their first week to ensure smooth access to all required tools and systems.
+Most items are partially automated, but several steps require the new
+employee or their manager to take direct action.
+
+Day 1: Automatic Setup (No Action Needed)
+The following are provisioned automatically by IT before your start date,
+based on the information submitted by HR during the hiring process:
+- Company email account and inbox
+- Slack account, added to your team's default channels
+- Access to the HR self-service portal for payroll and benefits
+- A company laptop, pre-configured with standard software (browser,
+  office suite, security agent, and VPN client pre-installed but not yet
+  activated)
+
+Day 1-2: Required Employee Actions
+1. Complete your account activation by logging into login.company.com
+   using the temporary credentials provided in your welcome email, and
+   immediately set a permanent password following the password policy
+   (see Password Reset Instructions document).
+2. Set up multi-factor authentication (MFA) using the Authenticator app,
+   following the guided setup link sent to your company email on Day 1.
+3. Review and acknowledge the Employee Handbook and IT Acceptable Use
+   Policy through the HR portal; this is a mandatory compliance step.
+
+Week 1: Requesting Tool Access
+Unlike email and Slack, most project-specific tools are not provisioned
+automatically and must be requested individually based on your role:
+1. Jira Access: Submit a request via the IT Service Portal specifying your
+   project and required role (see Jira Access Request Process document).
+2. Confluence Access: Typically granted alongside Jira access for the same
+   project; specify this in the same request if needed.
+3. GitHub/Source Control Access: Submit a separate request under
+   "Software Access" > "GitHub Access", specifying the repository or
+   organization team you need to join.
+4. VPN Access: Required only if you will be working remotely or need
+   access to internal-only systems (see VPN Access Request Guide). Not
+   needed for employees working exclusively from the office using
+   internal network connections.
+
+Week 1: Mandatory Training
+1. Complete the mandatory Security Awareness Training module, assigned
+   automatically and visible in your HR portal dashboard. This must be
+   completed within your first 5 business days.
+2. Complete any role-specific compliance training assigned by your
+   department (e.g., data privacy training for roles handling customer
+   data).
+
+Week 1: Manager Coordination
+New employees should schedule a 1:1 meeting with their direct manager
+during the first week to cover:
+- Role-specific access needs beyond the standard tools listed above
+  (e.g., access to specific internal dashboards, client systems, or
+  department-specific software)
+- Introduction to key team members and points of contact
+- Review of immediate priorities and expectations for the first 30 days
+
+Software Installation Requests
+If your role requires software beyond what is pre-installed on your
+company laptop (for example, specialized development tools, design
+software, or licensed applications), submit a request via the IT Service
+Portal under "Software Installation" (see Requesting New Software
+Installation document for the full process).
+
+Common Onboarding Issues
+
+Issue: Welcome email with temporary credentials never arrived
+Cause: Email provisioning delay, or incorrect personal email on file with
+HR (welcome emails are sent to your personal email before your company
+account exists).
+Fix: Contact your HR representative to confirm your personal email on
+file and have the welcome email resent.
+
+Issue: Laptop received but cannot log in with temporary credentials
+Cause: Account provisioning may not have completed before laptop shipment,
+which can occasionally happen with tight start-date timelines.
+Fix: Contact IT Helpdesk directly; they can verify account status and
+issue temporary credentials over a verified call if the automated email
+did not arrive.
+
+Issue: Slack account exists but missing from expected team channels
+Cause: Channel membership beyond default company-wide channels is managed
+by team leads, not automatically provisioned.
+Fix: Ask your manager or a teammate to add you to the relevant
+team-specific channels.
+
+30-60-90 Day Access Review
+At the 30-day mark, managers are expected to review whether their new team
+member has all necessary access and flag any gaps to IT. A more formal
+access audit occurs at 90 days as part of standard company security
+practice, at which point unused or unnecessary access grants may be
+reviewed and cleaned up.
+
+Contact and Escalation
+For any onboarding-related access issue blocking your ability to start
+work, contact the IT Helpdesk at ithelpdesk@adp.com or extension 7075949430.
+New employees experiencing Day 1 issues should also loop in their manager,
+as some onboarding steps require manager-level approval to resolve
+quickly.

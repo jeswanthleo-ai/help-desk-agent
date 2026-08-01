@@ -1,0 +1,94 @@
+Overview
+Jira is the company's primary project and issue tracking tool, used across
+engineering, product, and operations teams to manage tasks, sprints, bugs,
+and project workflows. Access to Jira is project-specific, meaning employees
+are granted access to individual project boards rather than a single
+blanket account covering all company projects.
+
+Access Roles Available
+- Viewer: Can view issues, boards, and reports but cannot create or edit
+  issues. Typically assigned to stakeholders who need visibility only.
+- Developer: Can create, edit, comment on, and transition issues within
+  assigned projects. This is the standard role for most team members
+  actively working on a project.
+- Project Admin: Can manage project configuration, workflows, permissions,
+  and add/remove team members. Typically reserved for team leads and
+  project managers.
+- Org Admin: Full administrative access across all Jira projects. Reserved
+  for the IT platform team and is not requestable through the standard
+  process.
+
+How to Request Jira Access
+1. Open a new ticket in the IT Service Portal under "Software Access" >
+   "Jira Access Request".
+2. In the request form, specify:
+   - The exact project name or project key (e.g., "PLATFORM", "MOBILE-APP")
+   - The role you are requesting (Viewer, Developer, or Project Admin)
+   - Business justification (e.g., "joining the Platform team as a backend
+     developer")
+3. Your direct manager must approve the request. If you are requesting
+   access to a project outside your own team, the project's lead or admin
+   must also approve.
+4. Once approved, access is typically granted within 24 hours on business
+   days.
+5. You will receive a confirmation email once your account has been added
+   to the project, along with a direct link to the project board.
+
+Requesting Access to Multiple Projects
+If you need access to more than one project (common for employees working
+across cross-functional initiatives), you can list multiple project keys
+in a single request rather than submitting separate tickets. Each project's
+respective lead will still need to individually approve access to their
+project.
+
+Role Changes for Existing Users
+If you already have Jira access but need a role change (for example,
+moving from Viewer to Developer after joining a project team formally),
+you do not need to go through the IT Service Portal. Instead, contact your
+project's designated Project Admin directly, as role changes within an
+existing project are managed at the project level, not centrally by IT.
+
+Common Jira Access Issues
+
+Issue: "You do not have permission to view this project"
+Cause: Your account either has no access to this specific project, or your
+assigned role does not include view permissions for certain issue types.
+Fix: Submit a new access request for the specific project via the IT
+Service Portal, or contact the Project Admin if you already have some
+level of access but are missing specific permissions.
+
+Issue: Cannot create new issues on a board despite having access
+Cause: Your role is set to Viewer instead of Developer.
+Fix: Contact your Project Admin to request a role upgrade to Developer.
+
+Issue: Recently changed teams but still see old project boards, or new
+project board is missing
+Cause: Access changes tied to team transfers are not automatic; a new
+request must be submitted for the new project, and old access should be
+explicitly revoked.
+Fix: Submit a new Jira Access Request for your new project, and separately
+request removal from your previous project's board if it is no longer
+relevant to your role.
+
+Deactivation and Offboarding
+When an employee leaves the company or changes departments, their Jira
+access is reviewed as part of the standard offboarding or transfer process.
+Access is not automatically removed the moment a role changes internally
+unless a formal access review or offboarding ticket triggers it, so
+managers are responsible for submitting a "Remove Access" request when a
+team member's project involvement ends.
+
+Jira Licensing Notes
+The company maintains a limited number of Jira seats under its enterprise
+license. During periods of high demand, new access requests may take
+slightly longer than the standard 24-hour window while license allocation
+is reviewed. If your request is urgent due to a project deadline, note this
+clearly in the business justification field, and it will be prioritized
+during the manager approval step.
+
+Contact and Escalation
+For general Jira access questions, submit a request through the IT Service
+Portal as described above. For urgent, blocking access issues (e.g., unable
+to work due to missing project access on day one of a new assignment),
+email ithelpdesk@adp.com with "URGENT - Jira Access" in the subject
+line, or contact extension 7075949430.

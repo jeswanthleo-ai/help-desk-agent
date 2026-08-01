@@ -1,0 +1,106 @@
+Overview
+This document covers the most frequently reported technical errors across
+company platforms and internal tools, along with their causes and
+recommended fixes. These are general platform-level issues, distinct from
+account access or permission requests, which are covered in separate
+documents.
+
+Error: "Session Expired"
+Cause: Your login session automatically times out after 30 minutes of
+inactivity, as a standard security measure across all internal web
+applications.
+Fix: Simply log in again. No further action is needed, and no data is
+typically lost if you were in the middle of filling out a form, since most
+internal tools auto-save drafts periodically.
+Prevention: If you frequently work in long stretches without interacting
+with the browser tab, consider enabling the "Keep me signed in" option
+where available, which extends the timeout window to 4 hours.
+
+Error: "403 Forbidden - Insufficient Permissions"
+Cause: Your account role does not include the permissions required to
+access this specific feature, page, or dataset.
+Fix: This is an access-level issue, not a technical bug. Request the
+correct role or access level through the appropriate access request
+process (see Jira Access Request Process or VPN Access Request Guide,
+depending on which system is involved).
+Note: If you previously had access to this exact feature and it recently
+stopped working, this may indicate a recent permissions change during a
+security review; contact IT Helpdesk to confirm whether this was
+intentional.
+
+Error: "Unable to Sync Data" / "Sync Failed"
+Cause: Usually caused by a temporary network interruption, a brief server-
+side maintenance window, or a large dataset taking longer than the
+expected sync window.
+Fix: Wait 5 minutes and retry the sync manually using the "Retry Sync"
+button available in most tools experiencing this error. If the issue
+persists for over 30 minutes continuously, this likely indicates a
+platform-wide issue rather than something specific to your account;
+escalate to platform support.
+Additional check: Confirm your internet connection is stable by loading
+another website; if other sites also fail to load, the issue is local to
+your network, not the platform.
+
+Error: "500 Internal Server Error"
+Cause: An unexpected server-side error, often temporary and related to
+backend processing rather than anything you did incorrectly.
+Fix: Refresh the page and retry the action after a minute. If the error
+repeats on the exact same action (e.g., always fails when submitting a
+specific form), note the exact steps that trigger it and report to
+platform support, as this may indicate a genuine bug rather than a
+transient issue.
+
+Error: "Page Not Loading" / Blank White Screen
+Cause: Most commonly a browser caching issue, an outdated browser version,
+or a temporary content delivery network (CDN) issue on the platform side.
+Fix:
+1. Hard refresh the page (Ctrl+Shift+R on Windows/Linux, Cmd+Shift+R on
+   Mac) to bypass cached files.
+2. Clear browser cache and cookies for the site specifically.
+3. Try accessing the page in an incognito/private browsing window to rule
+   out browser extensions interfering.
+4. If the issue persists across multiple browsers and after clearing
+   cache, this indicates a platform-side issue; escalate to platform
+   support.
+
+Error: "File Upload Failed"
+Cause: Commonly caused by file size exceeding the platform's upload limit
+(typically 25 MB for most internal tools), an unsupported file format, or
+a network interruption during upload.
+Fix: Confirm the file is under the size limit and in a supported format
+(check the specific tool's documentation for accepted formats, typically
+PDF, DOCX, XLSX, PNG, and JPG). For large files, ensure a stable network
+connection, ideally wired rather than WiFi, before retrying.
+
+Error: Slow Performance / Pages Taking a Long Time to Load
+Cause: Can result from high platform traffic during peak hours (typically
+9-11 AM), a large volume of data being rendered on a single page, or local
+device resource constraints (too many browser tabs or applications open).
+Fix: Close unnecessary browser tabs and applications to free up system
+resources. If slowness is specific to peak hours across the whole company,
+this is often a known and temporary condition; check the internal status
+page for any active performance advisories.
+
+Error: "Invalid Token" or "Authentication Error" on API-connected tools
+Cause: Your session token has expired or become invalid, often after a
+password change or prolonged inactivity.
+Fix: Log out completely and log back in to refresh your authentication
+token. If using an integration or connected app, you may need to
+reauthorize the connection separately from your main account login.
+
+When to Escalate vs. Self-Resolve
+As a general guideline:
+- Errors that resolve after a simple retry, refresh, or re-login do not
+  need escalation.
+- Errors that persist for more than 30 minutes, affect multiple users
+  simultaneously, or block critical work should be escalated to platform
+  support immediately rather than repeatedly retried.
+- Always check the internal status page first during a suspected
+  widespread outage, as many incidents are already being tracked and
+  communicated company-wide before individual tickets are needed.
+
+Contact and Escalation
+For persistent or unresolved technical errors, contact platform support at
+platformsupport@adp.com or through the IT Service Portal under
+"Report an Issue". Include the exact error message, the time it occurred,
+and the steps taken so far, as this significantly speeds up diagnosis.
